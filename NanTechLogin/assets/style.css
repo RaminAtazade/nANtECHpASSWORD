@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 610px;
+    top: 150px;
+  
+
+}
+i{
+    position: absolute;
+    right: 40px;
+    bottom: 135px;
+    cursor: pointer;
+}
+.login {
+    background-color: aliceblue;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px 0px rgb(129, 129, 129);
+    border-width: 3px;
+    width: 22%;
+    height: 50%;
+    position: absolute;
+    left: 520px;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: aliceblue;
+    transition: 1.3s;
+}
+
+.login:hover {
+    box-shadow: 0px 0px 20px 10px rgb(201, 247, 131);
+    ;
+}
+
+body {
+    background-image: url(https://lh3.googleusercontent.com/GUBEIfAb9U9y4xgkXs9kKpLj-oCSJU9T8Jm3TrR5y-WYdq4s1-Um65-k2aCWKpuMDtWJ2q7ELPeCKw-XkCu5DQXXr13KF1-MvCWiRo1Irg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.input {
+    width: 80%;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 9px;
+    border-width: 0.5px;
+    border-color: transparent;
+    background-color: #141414;
+    font-family: monospace;
+    color: aliceblue;
+    transition: 1.5s;
+}
+
+.input:focus {
+    outline: none;
+    background-color: rgb(201, 247, 131);
+    ;
+}
+
+.input:hover {
+
+    color: rgb(7, 7, 7);
+}
+
+#hde {
+    font-size: 160%;
+}
+
+h1 {
+    color: rgb(247, 84, 84);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span {
+    color: rgb(42, 149, 236);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 210%;
+}
+
+#daxilol:hover {
+    background-color: rgb(247, 84, 84);
+}
